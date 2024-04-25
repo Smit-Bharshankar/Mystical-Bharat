@@ -1,7 +1,7 @@
 import React, { useState , useHistory} from 'react';
 
 export default function Signup() {
-  const history = useHistory();
+  // const history = useHistory();
 
 
   const [formData, setFormData] = useState({
