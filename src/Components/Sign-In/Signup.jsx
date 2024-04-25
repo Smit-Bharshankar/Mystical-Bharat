@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState , useHistory} from 'react';
 
 export default function Signup() {
+  const history = useHistory();
+
 
   const [formData, setFormData] = useState({
     username: '',
@@ -29,7 +31,8 @@ export default function Signup() {
       rememberMe: false
     });
 
-    window.location.reload();
+    // window.location.reload();
+    history.push('/'); 
   };
 
   const handleLogout = () => {
@@ -43,7 +46,8 @@ export default function Signup() {
         rememberMe: false
     });
     // Refresh the page
-    window.location.reload();
+    // window.location.reload();
+    history.push('/'); 
 };
   
   return (
