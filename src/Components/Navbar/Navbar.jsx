@@ -12,10 +12,11 @@ const Navbar = () => {
     setisOpen(!isOpen);
   };
 
-  // const Menu = (e) => {
-  //   let list = document.querySelector('ul');
-  //   e.name === 'menu' ? (e.name = 'close',list.classList.add('top-[80px]') , list.classList.add('opacity-100')) : (e.name = 'menu' , list.classList.remove('top-[80px]') , list.classList.remove('opacity-100'))
-  // }
+
+
+
+
+
 
   return (
     <nav className='p-5 bg-gray-200  font-poppins shadow bg-opacity-65 md:flex md:items-center md:justify-between'>
@@ -46,11 +47,11 @@ const Navbar = () => {
             Plans
           </NavLink>
         </li>
-        <div className='mx-4 ' onClick={toggleMenu}>
+        <NavLink to='/signup' className='mx-4 ' >
           <button className='bg-slate-900 px-4 py-2 font-poppins text-white rounded-lg duration-500 hover:bg-black '>
             Sign-Up
           </button>
-        </div>
+        </NavLink>
       </ul>
       
     </nav>

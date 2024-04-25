@@ -6,6 +6,7 @@ import { Route, RouterProvider , createBrowserRouter, createRoutesFromElements }
 import Home from './Components/Home/Home.jsx'
 import Explore from './Components/Explore/Explore.jsx'
 import Plans from './Components/Plans/Plans.jsx'
+import Signup from './Components/Sign-In/Signup.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
 <Route path="" element={<Home/>} />
 <Route  path="explore" element={<Explore/>} />
 <Route path ="plans" element={<Plans/>} />
+<Route path ="signup" element={<Signup/>} />
 
 </Route>
  
