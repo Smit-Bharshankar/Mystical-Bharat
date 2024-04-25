@@ -31,8 +31,8 @@ export default function Signup() {
       rememberMe: false
     });
 
-    // window.location.reload();
-    history.push('/'); 
+    window.location.reload();
+    // history.push('/'); 
   };
 
   const handleLogout = () => {
@@ -46,8 +46,8 @@ export default function Signup() {
         rememberMe: false
     });
     // Refresh the page
-    // window.location.reload();
-    history.push('/'); 
+    window.location.reload();
+    // history.push('/'); 
 };
   
   return (
