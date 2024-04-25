@@ -4,7 +4,7 @@ import { HiMenu  , HiX} from "react-icons/hi";
 
 
 
-const Navbar = () => {
+const Navbar = ({username}) => {
 
 
   const [isOpen , setisOpen] = useState(false);
@@ -47,9 +47,10 @@ const Navbar = () => {
             Plans
           </NavLink>
         </li>
-        <NavLink to='/signup' className='mx-4 ' >
-          <button className='bg-slate-900 px-4 py-2 font-poppins text-white rounded-lg duration-500 hover:bg-black '>
-            Sign-Up
+        <NavLink to='/signup' className='mx-4 ' onClick={toggleMenu}>
+
+          <button className='bg-slate-900 px-4 overflow-hidden py-2 font-poppins text-white rounded-lg duration-500 hover:bg-black '>
+            {username}
           </button>
         </NavLink>
       </ul>
