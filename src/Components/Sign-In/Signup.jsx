@@ -1,4 +1,4 @@
-import React, { useState , useHistory} from 'react';
+import React, { useState , useHistory, useContext} from 'react';
 
 export default function Signup() {
   // const history = useHistory();
@@ -30,8 +30,8 @@ export default function Signup() {
       password: '',
       rememberMe: false
     });
-
-    window.location.reload();
+      
+    // window.location.reload();
     // history.push('/'); 
   };
 
@@ -46,7 +46,7 @@ export default function Signup() {
         rememberMe: false
     });
     // Refresh the page
-    window.location.reload();
+    // window.location.reload();
     // history.push('/'); 
 };
   

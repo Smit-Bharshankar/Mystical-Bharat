@@ -1,17 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { HiMenu  , HiX} from "react-icons/hi";
 
 
 
-const Navbar = ({username}) => {
+const Navbar = () => {
 
 
   const [isOpen , setisOpen] = useState(false);
   const toggleMenu = () => {
     setisOpen(!isOpen);
   };
-
 
 
 
@@ -50,7 +49,9 @@ const Navbar = ({username}) => {
         <NavLink to='/signup' className='mx-4 ' onClick={toggleMenu}>
 
           <button className='bg-slate-900 px-4 overflow-hidden py-2 font-poppins text-white rounded-lg duration-500 hover:bg-black '>
-            {username}
+          <div>
+            Sign-up
+        </div>
           </button>
         </NavLink>
       </ul>
