@@ -12,7 +12,7 @@ export default function FilterComp() {
   return (
     <div className="container mx-auto ">
   {/* Filter buttons */}
-  <div className="flex justify-center space-x-4 mb-4">
+  <div className="md:flex grid-cols-3  justify-center space-x-4 mb-4">
     <button onClick={() => setSelectedCategory(null)} className="px-4 py-2 cursor-pointer text-black rounded-mdhover:text-blue-700 hover:underline transition-all duration-500 ease-in-out focus:outline-none focus:text-rose-700 ">All</button>
     <button onClick={() => setSelectedCategory('North-East')} className="px-4 py-2 cursor-pointer text-black rounded-mdhover:text-blue-700 hover:underline transition-all duration-500 ease-in-out focus:outline-none focus:text-rose-700">North-East</button>
     <button onClick={() => setSelectedCategory('East')} className="px-4 py-2 cursor-pointer text-black rounded-mdhover:text-blue-700 hover:underline transition-all duration-500 ease-in-out focus:outline-none focus:text-rose-700">East</button>
