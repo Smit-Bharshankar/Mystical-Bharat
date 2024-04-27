@@ -1,5 +1,6 @@
 import React from 'react';
 import ImageSlider from './ImageSlider';
+import FilterComp from './FilterComp';
 let mountpic = "https://images.unsplash.com/photo-1619796696652-a29a854f21a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 let tajpic = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 let tigerpic = "https://images.unsplash.com/photo-1452001603782-7d4e7d931173?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -30,6 +31,7 @@ const Images = [tajpic , tigerpic , shalimarbagh , badrinathtemple , shimla , ta
         <h1 className='mt-6 tracking-wide font-serif font-light'>Explore India from Kashmir to Kaniyakumari</h1>
       </div>
 
+        <FilterComp />
 
     </div>
   );

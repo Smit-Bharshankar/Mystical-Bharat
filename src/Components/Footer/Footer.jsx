@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaInstagram, FaTwitter, FaPinterest, FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaPinterest, FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -26,7 +28,7 @@ const Footer = () => {
           <div className='flex flex-row gap-4'>
             <FaInstagram className='cursor-pointer' size={27} />
             <FaFacebookF className='cursor-pointer' size={25} />
-            <FaTwitter className='cursor-pointer' size={25} />
+            <FaXTwitter className='cursor-pointer' size={25} />
             <FaPinterest className='cursor-pointer' size={25} />
           </div>
         </div>
