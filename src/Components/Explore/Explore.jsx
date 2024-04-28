@@ -32,7 +32,7 @@ function Explore() {
         <div className='flex  flex-wrap justify-center gap-6  pt-6 pb-4'>
 
         
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm  bg-slate-50 rounded overflow-hidden shadow-lg">
   <img className=" object-cover" src={tourbus} alt="Card" />
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">Experience & Tours</div>
@@ -46,7 +46,7 @@ function Explore() {
 </div>
 
 
-<div className="max-w-sm rounded overflow-hidden shadow-lg">
+<div className="max-w-sm rounded bg-slate-50 overflow-hidden shadow-lg">
   <img className=" object-cover aspect-video" src="https://images.unsplash.com/photo-1491451231005-ec20221dd520?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card" />
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">Destination</div>
@@ -59,7 +59,7 @@ function Explore() {
   </div>
 </div>
 
-<div className="max-w-sm rounded overflow-hidden shadow-lg">
+<div className="max-w-sm rounded  bg-slate-50 overflow-hidden shadow-lg">
   <img className=" object-cover aspect-video" src="https://images.unsplash.com/photo-1567994200289-a98293394b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Card" />
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">Activities & Attraction</div>
