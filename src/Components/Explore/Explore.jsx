@@ -29,7 +29,7 @@ function Explore() {
         </h1>
 
         {/* cards */}
-        <div className='flex flex-row gap-6  pt-6 pb-4'>
+        <div className='flex  flex-wrap justify-center gap-6  pt-6 pb-4'>
 
         
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
