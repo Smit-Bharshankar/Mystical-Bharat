@@ -1,7 +1,8 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { HiMenu  , HiX} from "react-icons/hi";
 
+"use client";
 
 
 const Navbar = () => {
@@ -12,13 +13,31 @@ const Navbar = () => {
     setisOpen(!isOpen);
   };
 
+  const TOP_OFFSET = 50;
+  const [showBackground, setShowBackground] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log(window.scrollY);
+      if (window.scrollY >= TOP_OFFSET) {
+        setShowBackground(true);
+      } else {
+        setShowBackground(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 
 
 
   return (
-    <nav className='p-5 bg-gray-200  font-poppins shadow bg-opacity-65 md:flex md:items-center md:justify-between'>
+<nav className={`p-5  font-poppins shadow ${showBackground ? "bg-slate-600 " : "bg-rose-400 bg-opacity-100"} bg-opacity-65 md:flex md:items-center md:justify-between`}>
       <div className='flex justify-between items-center'>
         <span className='text-2xl font-sedan cursor-pointer'>
           <img className='h-10 inline mr-3' src="https://w7.pngwing.com/pngs/663/305/png-transparent-daenerys-targaryen-house-targaryen-sigil-decal-sticker-showcase-dragon-heart-logo-thumbnail.png" />
