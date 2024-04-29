@@ -51,7 +51,7 @@ function Explore() {
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">Destination</div>
     <p className="text-gray-700 text-base">
-    Embrace new horizons, seek adventure, and unlock unforgettable experiences through travel exploration today!    </p>
+    Embrace new horizons, seek adventure, find new destinations and unlock unforgettable experiences through travel exploration today!    </p>
   </div>
   <div className="px-6 py-4 flex justify-between items-center cursor-pointer ">
     <p className="hover:text-fuchsia-400 font-bold text-fuchsia-500">Learn More</p>
