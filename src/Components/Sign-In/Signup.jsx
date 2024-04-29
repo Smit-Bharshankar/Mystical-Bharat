@@ -1,4 +1,6 @@
 import React, { useState , useHistory, useContext} from 'react';
+import TourIndiaBlack from '../../assets/IndiaTourBlack.png'
+
 
 export default function Signup() {
   // const history = useHistory();
@@ -52,11 +54,11 @@ export default function Signup() {
   
   return (
     <div>
-      <section className="bg-cover bg-center" style={{backgroundImage: "url(https://images.unsplash.com/photo-1619796696652-a29a854f21a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"}}>
-        <div className="flex  flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-          <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 ">
-            <img className="w-8 h-8 mr-2" src="https://w7.pngwing.com/pngs/663/305/png-transparent-daenerys-targaryen-house-targaryen-sigil-decal-sticker-showcase-dragon-heart-logo-thumbnail.png" alt="logo" />
-            Mystical-Bharat   
+      <section className="bg-cover bg-center md:h-screen" style={{backgroundImage: "url(https://images.unsplash.com/photo-1619796696652-a29a854f21a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"}}>
+        <div className="flex  flex-col  items-center  justify-center px-6  mx-auto md:h-[90%] lg:py-0">
+          <a href="#" className="flex items-center mb-3 text-2xl font-semibold text-gray-900 mix-blend-multiply">
+            <img className=" h-20 mr-2" src={TourIndiaBlack} alt="logo" />
+               
           </a>
           <div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0 ">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

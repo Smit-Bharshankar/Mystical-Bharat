@@ -17,7 +17,7 @@ const Footer = () => {
         <div className='flex flex-col gap-5 mb-5'>
           <h2 className='text-3xl text-purple-500'>About Us</h2>
           <div className='flex flex-col'>
-            <p>Explore India with Mystical-Bharat - Your ultimate guide to unforgettable holidays in India.</p>
+            <p>Explore India with TourIndia - Your ultimate guide to unforgettable holidays in India.</p>
             <p>Discover hidden gems, iconic landmarks, and cultural treasures.</p>
             <p className='text-xl'>Plan your next adventure with us!</p>
           </div>
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className='flex flex-col mb-5 gap-5 mr-4'>
           <h2 className='text-3xl text-purple-500'>Contact Us</h2>
           <div className='text-l'>
-            <h2><a href='mailto:mystical-bharat@mystix.in.com'>mystical-bharat@mystix.in.com</a></h2>
+            <h2><a href='mailto:indiatour@tour.in.com'>indiatour@tour.in.com</a></h2>
             <h2 className='mb-3'>+91-504504-2424</h2>
             <form className="max-w-sm mx-auto">
               <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
@@ -49,14 +49,14 @@ const Footer = () => {
           <h2 className='text-3xl text-purple-500'>Get Updates:</h2>
           <form className="max-w-sm mx-auto">
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-            <input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@gmial.com" />
+            <input type="email" id="email" aria-describedby="helper-text-explanation" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@gmail.com" />
             <p id="helper-text-explanation" className="mt-2 text-sm text-gray-500 dark:text-gray-400">We’ll never share your details. Read our <a href="#" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
           </form>
         </div>
 
         <div className='flex flex-col gap-5'>
           <br />
-          <h2 className='text-l'>© 2024 Mystical-Bharat. All rights reserved. Terms of Service | Privacy Policy</h2>
+          <h2 className='text-l'>© 2024 Tour-India. All rights reserved. Terms of Service | Privacy Policy</h2>
         </div>
 
       </div>

@@ -1,6 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { HiMenu  , HiX} from "react-icons/hi";
+import TourIndia from '../../assets/TourIndia.png'
+import TourIndiaWhite from '../../assets/IndiaTourWhite.png'
+import TourIndiaBlack from '../../assets/IndiaTourBlack.png'
+
+
 
 "use client";
 
@@ -19,7 +24,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       console.log(window.scrollY);
-      if (window.scrollY >= TOP_OFFSET) {
+      if (window.scrollY > TOP_OFFSET) {
         setShowBackground(true);
       } else {
         setShowBackground(false);
@@ -37,11 +42,15 @@ const Navbar = () => {
 
 
   return (
-<nav className={`p-5  font-poppins shadow ${showBackground ? "bg-slate-600 " : "bg-rose-400 bg-opacity-100"} bg-opacity-65 md:flex md:items-center md:justify-between`}>
+<nav className={`p-5 pt-3 pb-2 font-poppins shadow ${showBackground ? "bg-slate-600  " : "bg-rose-400 bg-opacity-100"} bg-opacity-65 md:flex md:items-center md:justify-between`}>
       <div className='flex justify-between items-center'>
-        <span className='text-2xl font-sedan cursor-pointer'>
-          <img className='h-10 inline mr-3' src="https://w7.pngwing.com/pngs/663/305/png-transparent-daenerys-targaryen-house-targaryen-sigil-decal-sticker-showcase-dragon-heart-logo-thumbnail.png" />
-          Mystical-Bharat
+      <span className='text-2xl font-sedan cursor-pointer mix-blend-multiply' >
+{showBackground ? 
+          <img className=' inline mr-3 bg-transparent h-12 ' src={TourIndiaBlack} />
+ :
+          <img className=' inline mr-3 bg-transparent h-12 ' src={TourIndiaWhite} />
+}
+          
         </span>
 
         <span className='text-3xl mx-2 cursor-pointer md:hidden block' onClick={toggleMenu}>

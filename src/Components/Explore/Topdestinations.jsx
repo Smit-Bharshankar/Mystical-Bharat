@@ -6,7 +6,7 @@ import Bijapur from '../../assets/Bijapur, Karnataka.jpg'
 
 function Topdestinations() {
   return (
-    <div className=' bg-gradient-to-bl to-[#F7D8FF] from-[#D8FEFF]'>
+    <div className=' bg-gradient-to-br to-[#cf8ddf] from-[#9ededf]'>
       <h1 className='font-bold text-center text-3xl pt-8 pb-4  font-poppins text-black hover:text-gray-800'>Featured Destinations</h1>
       <div className='flex flex-wrap justify-center'>
         <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
