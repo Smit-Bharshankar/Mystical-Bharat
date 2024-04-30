@@ -46,7 +46,7 @@ function Plans() {
 <div className='w-[70vw] mb-8 mx-auto'>
 
 <h1 className='text-2xl text-center mt-8 mb-4 font-medium'>Connect with Us</h1>
-<div className='flex flex-wrap justify-evenly'>
+<div className='flex flex-wrap  gap-8 md:gap-0 justify-evenly'>
 
   <img className='cursor-pointer' src={facebook} alt="" />
   <img className='cursor-pointer' src={youtube} alt="" />
