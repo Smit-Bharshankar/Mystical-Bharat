@@ -63,7 +63,7 @@ function Plans() {
 
             </div>
 
-            <div>
+            <div className='pl-4 pr-4'>
               <FAQSection />
             </div>
 
