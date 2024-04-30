@@ -21,7 +21,7 @@ function Packages() {
       <h1 className="text-3xl font-semibold pb-6">Popular Packages</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {packages.map((packages, index) => (
-          <div key={index} className="border-2 border-gray-300 shadow-lg rounded-lg p-4">
+          <div key={index} className="border-2 border-gray-300  bg-rose-100 shadow-lg rounded-lg p-4">
             <h2 className="text-xl font-semibold mb-2">{packages.location}</h2>
             <p className="text-gray-600 pb-2">{packages.price} - {packages.days}</p>
             <p className="text-gray-800 pb-3">{packages.inclusion}</p>
