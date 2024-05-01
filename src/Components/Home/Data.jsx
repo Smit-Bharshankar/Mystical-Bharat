@@ -9,7 +9,7 @@ const Data = [
 },
 {
   id:'2',
-  title:'Tawand Monaestry',
+  title:'Tawang Monaestry',
   category:'North-East',
   state:'Arunachal-Pradesh',
   img:"https://images.unsplash.com/photo-1628070018796-a9f4e2dd482a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
