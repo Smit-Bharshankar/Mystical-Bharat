@@ -1,6 +1,7 @@
 import React from 'react';
 import ImageSlider from './ImageSlider';
 import FilterComp from './FilterComp';
+import Reviews from './Reviews';
 let mountpic = "https://images.unsplash.com/photo-1619796696652-a29a854f21a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 let tajpic = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 let tigerpic = "https://images.unsplash.com/photo-1452001603782-7d4e7d931173?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -32,6 +33,15 @@ const Images = [tajpic , tigerpic , shalimarbagh , badrinathtemple , shimla , ta
       </div>
 
         <FilterComp />
+
+        <div className='pt-10  w-full flex flex-col  items-center justify-center'>
+          <h1 className='text-2xl font-bold'>Customer Reviews</h1>
+          <br />
+          <h1 className='font-popping  w-[60vw] text-wrap pt-2 pb-6'>Discover what our customers are saying about their experiences! We value feedback and strive to provide exceptional service to each and every guest. </h1>
+          <div className='w-[60vw]'>
+          <Reviews />
+          </div>
+        </div>
 
     </div>
   );

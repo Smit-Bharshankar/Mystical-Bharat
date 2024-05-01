@@ -4,13 +4,25 @@ import { HiMenu  , HiX} from "react-icons/hi";
 import TourIndia from '../../assets/TourIndia.png'
 import TourIndiaWhite from '../../assets/IndiaTourWhite.png'
 import TourIndiaBlack from '../../assets/IndiaTourBlack.png'
-
+import { useAuth } from '../AuthContext'
 
 
 "use client";
 
 
 const Navbar = () => {
+  
+
+  const [username, setUsername] = useState('');
+
+  useEffect(() => {
+    // Retrieve username from local storage
+    const storedData = localStorage.getItem('formData');
+    if (storedData) {
+      const { username } = JSON.parse(storedData);
+      setUsername(username);
+    }
+  }, []);
 
 
   const [isOpen , setisOpen] = useState(false);
@@ -78,7 +90,11 @@ const Navbar = () => {
 
           <button className='bg-slate-900 px-4 overflow-hidden py-2 font-poppins text-white rounded-lg duration-500 hover:bg-black '>
           <div>
-            Sign-up
+          {username ? (
+            <span className=""> {username}</span>
+          ) : (
+            <a href="/signup" className="">Sign-Up</a>
+          )}
         </div>
           </button>
         </NavLink>
