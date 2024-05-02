@@ -26,11 +26,19 @@ const Footer = () => {
         <div className='flex flex-col mb-5 gap-5 ml-4'>
           <h2 className='text-3xl text-purple-500'>Connect with Us</h2>
           <div className='flex flex-row gap-4'>
-            <FaInstagram className='cursor-pointer' size={27} />
-            <FaFacebookF className='cursor-pointer' size={25} />
-            <FaXTwitter className='cursor-pointer' size={25} />
-            <FaPinterest className='cursor-pointer' size={25} />
-          </div>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+    <FaInstagram className='cursor-pointer' size={27} />
+  </a>
+  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+    <FaFacebookF className='cursor-pointer' size={25} />
+  </a>
+  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+    <FaXTwitter className='cursor-pointer' size={25} />
+  </a>
+  <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">
+    <FaPinterest className='cursor-pointer' size={25} />
+  </a>
+</div>
         </div>
 
         <div className='flex flex-col mb-5 gap-5 mr-4'>

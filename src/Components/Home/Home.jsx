@@ -27,6 +27,12 @@ const Images = [tajpic , tigerpic , shalimarbagh , badrinathtemple , shimla , ta
      </div>
       </div>
 
+      <div className='max-w-[1200px] w-full  my-10 mx-auto'>
+        <p className='text-slate-700 text-center font-medium tracking-wide text-xl  font-poppins'> 
+        Welcome to our website, your ultimate destination for personalized travel recommendations across the diverse landscapes of India. Whether you're drawn to the majestic peaks of the Himalayas in the North, the serene backwaters of the South, or the vibrant culture of the East and West, we've got you covered. Our platform harnesses the power of data to curate spot recommendations tailored to your preferred direction, spanning multiple states and offering a rich tapestry of experiences waiting to be explored. Embark on your next adventure with us and discover the beauty of India like never before
+        </p>
+      </div>
+
       <div className='flex flex-col justify-center items-center h-40 my-10 mt-20'>
         <h1 className='font-bold text-5xl font-poppins'>You'll fall in love with India</h1>
         <h1 className='mt-6 tracking-wide font-serif font-light'>Explore India from Kashmir to Kaniyakumari</h1>

@@ -37,7 +37,7 @@ const PackageFilter = ({ destination }) => {
 
       <div className="flex justify-evenly mb-4">
         <div className="mr-4">
-          <label className="mr-2">Theme:</label>
+          <label className="mr-2 text-xl">Theme:</label>
           <select
             className="border rounded-lg p-2"
             value={themeFilter}
@@ -54,7 +54,7 @@ const PackageFilter = ({ destination }) => {
           </select>
         </div>
         <div>
-          <label className="mr-2">Price Range:</label>
+          <label className="mr-2 text-xl">Price Range:</label>
           <select
             className="border rounded-lg p-2"
             value={priceFilter}
